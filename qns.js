@@ -184,3 +184,101 @@ function tableCreate() {
     }
 }
 tableCreate()
+
+//Write a function that takes a string as input and 
+//returns the most common character in the string.
+// function commonCharacter(String) {
+    
+//  for (let z = char; z < String.length; z++) {
+//     let repeated=z>1
+//     if (z>1) {
+//         console.log(repeated);
+//     }
+    
+//    }
+// }
+// let String="Goodbye"
+// commonCharacter(String)
+
+//prime numbers between 0 to 20
+function primenumbers() {
+    for (let k = 0; k <=20; k++) {
+        let res=0
+      for (let m = 0; m < k; m++) {
+       if (m%k===0) {
+           res=1
+       }
+        
+      }
+      console.log(res);
+    }
+}
+primenumbers()
+
+// Write a function that takes a string as an argument and returns
+//  true if the string is a palindrome 
+// (reads the same backwards and forwards) and false if it is not.
+function palindrome(str) {
+    return str === str.split('').reverse().join('')
+    
+}
+console.log( palindrome("dad"));
+console.log( palindrome("school"))
+
+//second option
+function checkPalindrome(String) {
+    const array=String.split('').reverse().join('')
+    if (array===String) {
+        console.log("true");
+    }
+    else{
+        console.log("false");
+    }
+}
+let String="civic"
+checkPalindrome(String)
+
+//Write a function that sums up all the odd numbers squared in an array
+
+function sumOdd() {
+    sum=0
+    for (let x = 0; x <=10; x++) {
+       if (x%2!==0) {
+        sum+=x
+       }
+    }
+    console.log(sum*sum);
+}
+sumOdd() 
+
+//Write a function that sums up all the odd numbers squared in an array
+
+function sOdd() {
+    summ=0
+    for (let t = 0; t<=10; t++) {
+       if (t%2!==0) {
+        summ+=(t*t)
+       }
+    }
+    console.log(summ);
+}
+sOdd() 
+
+//Write a function that takes two arrays of integers and returns a new array that co
+//ntains all the integers that are present in both input arrays.
+function array(arr1,arr2) {
+    let emptyArray=[];
+    for (let x = 0; x < arr1.length && x < arr2.length ; x++) {
+        if (x===arr1 && x===arr2) {
+            emptyArray.push(arr1.shift() && arr2.shift())
+        }
+         
+    }
+    console.log(emptyArray);
+}
+let arr1=[2,4,6,7,8,9,65];
+let arr2=[2,12,3,4,8,65]
+array(arr1,arr2) 
+
+
+

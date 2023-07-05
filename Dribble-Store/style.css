@@ -1,0 +1,170 @@
+.body{
+    background-color: black;
+}
+.blady{
+    background-image:url(/image/black-lady.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500%;
+    background-size: 100%;
+
+    
+}
+.lorhead{
+    margin-left: 35%;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    padding-top: 30%;
+    padding-bottom: 18%;
+    color: white;
+}
+.secpg{
+  display: flex;
+}
+.secim{
+    background-color: red;
+    width: 50%;
+    margin-top: 1%;
+}
+#one{
+    color: white;
+    margin-left: 10%;
+    
+}
+.abt{
+    color: white;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.tsk{
+    display: flex;
+    margin-top: 40%;
+}
+.fin{
+    margin-left: 15%;
+}
+.two{
+    color: white;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.twoo{
+    margin-left: 30%;
+}
+.play{
+    background-color: red;
+    /* padding: 20%; */
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 60%;
+    width: 150%;
+    height: 40%;
+}
+.nova{
+    background-color: red;
+    margin-top: 20%;
+    width: 150%;
+    height: 40%;
+}
+.dis{
+    padding: 10%;
+    margin-top: 10%;
+}
+#pro{
+    padding: 10%;
+}
+.par{
+    display: flex;
+}
+.red{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding-bottom: 4%;
+    
+}
+.three{
+    display: flex;
+    margin-left: 10%;
+}
+.col{
+    margin-left: 40%;
+}
+.lor{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.lor h3{
+    border: solid white;
+    padding-top: 23%;
+    padding-right: 14%;
+    margin-right: 3%;
+}
+#FFF{
+    background-color: white;
+    color: black;
+}
+#ff{
+    background-color: black;
+}
+#fo{
+    background-color: black;
+}
+.four{
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+}
+.system{
+    margin-left: 30%;
+}
+.red{
+    /* background-color: red; */
+    
+}
+#bcr{
+    background-color: red;
+    margin-left: 10%;
+    padding-left: 20%;
+    padding-right: 30%;
+    margin-top: 7%;
+    height: 30%;
+}
+.five{
+    color: white;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.lapg{
+    margin-left: 50%;
+}
+.hdst{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    list-style: none;
+}
+.paper{
+    color: white;
+    display: flex;
+    margin-left: 10%;
+    background-color: red;
+    
+}
+.sle{
+    margin-left: 20%;
+    border: solid black;
+    
+}
+.hund{
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+}
